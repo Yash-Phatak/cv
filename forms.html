@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="index.html">
+        <label>Your Name: </label>
+        <input type="text" name="" value=""><br><br>
+        <label for="">Color: </label>
+        <input type="color" name="" value=""><br><br>
+        <label for="">Do you agree to the Terms and Conditions: </label>
+        <input type="checkbox" name="" id=""><br><br>
+        <label for="">Choose a file: </label>
+        <input type="file" value=""><br><br>
+        <label>Password: </label>
+        <input type="password"><br><br>
+        <label for="">Buttons:</label>
+        <input type="button"> <!--Button without a value-->
+        <input type="button" value="Click me"><br><br>
+        <!--For url there are many attributes like pattern,length,placeholder,etc we can refer to MDN for that-->
+        <label for="url">Enter an https url: </label>
+        <input type="url" placeholder="https://abc.com" size="30"><br><br>
+        <!--image->Takes an image as input button...alt-name,src-sourceofimg-->
+        <input type="image" alt="login" src="data:image/jpeg;base64,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"> 
+        <br><br>
+        <input type="submit" name="" id="">
+    </form>
+</body>
+</html>
